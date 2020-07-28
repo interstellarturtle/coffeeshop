@@ -1,0 +1,267 @@
+/*
+|| GENERAL STYLES
+*/
+
+
+/*
+/* desktop - 1200px
+@media only screen and (min-width: 767px) {
+  .yourClass {
+
+  }
+}
+/* tablet - 768px
+@media only screen and (max-width: 768px) and (min-width: 1199px) {
+  .yourClass {
+
+  }
+}
+/* mobile - 640px
+@media only screen and (max-width: 640px) {
+  .yourClass {
+
+  }
+}
+
+*/
+
+body {
+  background-color: #EAE7DE;
+}
+
+h2, h3, p {
+  color: #30271C;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 30px;
+  text-align: left;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+h3, p, ul {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #C8A47E;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.underline-home {
+  display: block;
+  border-width: 3px;
+  border-color: #c7a17a;
+  width: 25%;
+}
+
+.underline-about {
+  display: block;
+  border-width: 3px;
+  border-color: #c7a17a;
+  width: 16%;
+}
+
+.underline-menu {
+  display: block;
+  border-width: 3px;
+  border-color: #c7a17a;
+  width: 15%;
+}
+
+.underline-team {
+  display: block;
+  border-width: 3px;
+  border-color: #c7a17a;
+  width: 11%;
+}
+
+.underline-contact {
+  display: block;
+  border-width: 3px;
+  border-color: #c7a17a;
+  width: 8%;
+}
+
+
+/*
+|| HEADER
+ */
+
+.jumbotron p {
+  color: #FFF;
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+}
+
+.jumbotron.index-page {
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #010729;
+  padding-top: 0;
+}
+
+/* desktop - 1200px */
+@media only screen and (min-width: 767px) {
+  .jumbotron.index-page {
+    background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592226269/IndexBanner_ujeviv.jpg");
+  }
+}
+/* tablet - 768px */
+
+/* mobile - 640px */
+/* @media only screen and (max-width: 640px) {
+  .jumbotron.index-page {
+    background-image: none;
+  }
+}
+ */
+
+
+.jumbotron.about-page {
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #0E0D12;
+  padding-top: 0;
+}
+
+/* desktop - 1200px */
+@media only screen and (min-width: 767px) {
+  .jumbotron.about-page {
+  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592816207/AboutPic_a0vijj.jpg");
+  }
+}
+
+.jumbotron.team-page {
+  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592816277/barista222_uaqtqi.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat-x: no-repeat;
+  background-color: #0B0A07;
+  padding-top: 0;
+}
+
+.jumbotron.menu-page {
+  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1594730037/image_ihx73m.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat-x: no-repeat;
+  background-color: #0B0A07;
+  padding-top: 0;
+}
+
+.jumbotron.contact-page {
+  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592817243/ContactPic_fi9z9i.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat-x: no-repeat;
+  padding-top: 0;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar-nav {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+ /* #collapsibleNavbar {
+   font-family: "Oswald", sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 0;
+ } */
+
+/*
+|| INDEX PAGE
+ */
+
+
+
+/*
+|| ABOUT US PAGE
+*/
+
+.img-about-page {
+  display: inline-flex;
+  height: 20%;
+  width: 20%;
+  color: #a77c50;
+  padding-right: 20px;
+}
+
+
+/*
+|| MENU PAGE
+*/
+
+#hotDrinks {
+  display:block;
+  height: 15%;
+  width: 15%;
+}
+
+#coldDrinks {
+  display:block;
+  height: 15%;
+  width: 15%;
+}
+
+
+
+/*
+|| OUR TEAM PAGE
+*/
+
+
+
+/*
+|| CONTACT US PAGE
+*/
+
+
+
+.contact-address {
+  padding: 0;
+  margin-top: 20px;
+  margin-left: 180px;
+  text-align: left;
+}
+
+
+.nav-item.active {
+  text-decoration: underline;
+}
