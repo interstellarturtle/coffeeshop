@@ -2,6 +2,60 @@
 || GENERAL STYLES
 */
 
+body {
+  background-color: #EAE7DE;
+}
+
+
+h1 {
+  color: #FFF;
+  font-size: 30px;
+  text-align: left;
+}
+
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+
+h2, h3, p {
+  color: #30271C;
+}
+
+
+h3, p, ul {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #C8A47E;
+}
+
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: justify;
+}
 
 /*
 /* desktop - 1200px
@@ -25,52 +79,7 @@
 
 */
 
-body {
-  background-color: #EAE7DE;
-}
 
-h2, h3, p {
-  color: #30271C;
-}
-
-h1 {
-  color: #FFF;
-  font-size: 30px;
-  text-align: left;
-}
-
-h1, h2 {
-  font-family: "Oswald", sans-serif;
-}
-
-h3, p, ul {
-  font-family: "Open Sans", sans-serif;
-}
-
-h2 {
-  font-size: 26px;
-  font-weight: bold;
-  text-align: center;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 16px;
-  font-weight: bold;
-  font-style: italic;
-  text-align: center;
-  color: #C8A47E;
-}
-
-p {
-  font-size: 16px;
-  font-weight: normal;
-  text-align: justify;
-}
 
 .underline-home {
   display: block;
@@ -122,17 +131,17 @@ p {
 }
 
 .jumbotron.index-page {
-  background-position: left;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: #010729;
+  background-color: #0B0A07;
   padding-top: 0;
 }
 
 /* desktop - 1200px */
 @media only screen and (min-width: 767px) {
   .jumbotron.index-page {
-    background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592226269/IndexBanner_ujeviv.jpg");
+    background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1596102943/fallon-michael-B_RPtfSiF-A-unsplash_bikg14.jpg");
   }
 }
 /* tablet - 768px */
@@ -150,41 +159,60 @@ p {
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #0E0D12;
+  background-color: #0B0A07;
   padding-top: 0;
 }
 
 /* desktop - 1200px */
 @media only screen and (min-width: 767px) {
   .jumbotron.about-page {
-  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592816207/AboutPic_a0vijj.jpg");
+  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1596102993/tina-guina-obV_LM0KjxY-unsplash_ln3mzv.jpg");
   }
 }
 
 .jumbotron.team-page {
-  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592816277/barista222_uaqtqi.png");
   background-position: left;
   background-size: cover;
-  background-repeat-x: no-repeat;
+  background-repeat: no-repeat;
   background-color: #0B0A07;
   padding-top: 0;
+}
+
+/* desktop - 1200px */
+@media only screen and (min-width: 767px) {
+  .jumbotron.team-page {
+  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592816277/barista222_uaqtqi.png");
+  }
 }
 
 .jumbotron.menu-page {
-  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1594730037/image_ihx73m.jpg");
   background-position: left;
   background-size: cover;
-  background-repeat-x: no-repeat;
+  background-repeat: no-repeat;
   background-color: #0B0A07;
   padding-top: 0;
 }
 
+/* desktop - 1200px */
+@media only screen and (min-width: 767px) {
+  .jumbotron.menu-page {
+  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1596102944/our_menu_rpr0ww.jpg");
+  }
+}
+
 .jumbotron.contact-page {
-  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592817243/ContactPic_fi9z9i.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat-x: no-repeat;
+  background-repeat: no-repeat;
+  background-color: #0B0A07;
   padding-top: 0;
+}
+
+/* desktop - 1200px */
+@media only screen and (min-width: 767px) {
+  .jumbotron.contact-page {
+  background-image: url("https://res.cloudinary.com/ancaan/image/upload/v1592817243/ContactPic_fi9z9i.jpg");
+  }
 }
 
 .navbar-brand img {
@@ -198,12 +226,10 @@ p {
   margin-top: 0;
 }
 
- /* #collapsibleNavbar {
-   font-family: "Oswald", sans-serif;
-   font-size: 20px;
-   font-weight: bold;
-   margin-top: 0;
- } */
+
+.nav-item.active {
+  text-decoration: underline;
+}
 
 /*
 || INDEX PAGE
@@ -251,17 +277,36 @@ p {
 /*
 || CONTACT US PAGE
 */
-
-
-
-.contact-address {
-  padding: 0;
-  margin-top: 20px;
-  margin-left: 180px;
-  text-align: left;
+.fas {
+  color: #c7a17a;
+  font-size: 20px;
 }
 
+iframe {
+  max-height: 300px;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
 
-.nav-item.active {
-  text-decoration: underline;
+.contact-details {
+  line-height: 2;
+  text-align: center;
+}
+
+/*
+|| FOOTER
+*/
+.card-footer {
+border: 0;
+background-color: #161117;
+padding-bottom: 30px;
+padding-top: 30px;
+margin-top: 30px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 16px;
+  color: #C0C0C0;
 }
