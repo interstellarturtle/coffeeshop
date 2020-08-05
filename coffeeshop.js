@@ -49,7 +49,7 @@ $.ajax({
       var price = value.gsx$price.$t;
       var src_image = value.gsx$picurl.$t;
       var drinkType = value.gsx$menucategory.$t;
-      var drinkElement = '<div class="col-md-16 text-center"><img src="' + src_image + '" class = "img-fluid"><h4>' + title + '<br>' + price + '<br></h4><p>' + description + '</p></div>';
+      var drinkElement = '<div class="col-12 mb-4"><div class="row mr-5"><div class="col-3"><img src="' + src_image + '" class="img-fluid"></div><div class="col-9"><div class="row"><div class="col-8"><h3>' + title + '</h3></div><div class="col-4 text-right"><h3>' + price + '<br></h3></div><div class="col-12"><hr class="menu-divider"></div><div class="col-12"><p class="text-left">' + description + '</p></div></div></div></div></div>';
       if ("Hot" === drinkType) {
         $('#coffeemenu #hotDrinks').append(drinkElement);
       } else {
@@ -57,5 +57,6 @@ $.ajax({
       }
 
     });
+
   }
 });
